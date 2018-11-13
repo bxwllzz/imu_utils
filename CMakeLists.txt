@@ -16,7 +16,8 @@ find_package(catkin REQUIRED
     geometry_msgs
     nav_msgs
     code_utils
-    )
+    rosbag
+)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)

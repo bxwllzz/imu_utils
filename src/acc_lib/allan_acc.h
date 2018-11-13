@@ -25,7 +25,7 @@ class AllanAcc
     std::vector< int > getFactors( ) const;
     double getFreq( ) const;
 
-    private:
+    // private:
     std::vector< double > calcVariance( double period );
 
     std::vector< double > calcThetas( const double freq );
